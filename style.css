@@ -1,0 +1,83 @@
+main {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: block;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(4, 4, 4);
+}
+h1 {
+  font-family: "Nosifer", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 5vh;
+  text-shadow: -3px 2px 13px #df1d04;
+  text-align: center;
+  font-size: 4rem;
+  color: aliceblue;
+}
+.cartes {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.carte1 {
+  background: url(/images/12.jpeg) center/cover;
+  border: 1px solid #c6e1ff;
+  height: 50vh;
+  width: 30vh;
+  transition: width 0.5s, height 0.5s, background-color 1s, border 1s,
+    transform 0.5s;
+}
+.carte2 {
+  background: url(/images/9.jpg) center/cover;
+  border: 1px solid #a6d5d6;
+  height: 50vh;
+  width: 30vh;
+  transition: width 0.5s, height 0.5s, background-color 1s, transform 0.5s;
+}
+.carte3 {
+  background: url(/images/10.png) center/cover;
+  border: 1px solid #fff983;
+  height: 50vh;
+  width: 30vh;
+  transition: width 0.5s, height 0.5s, background-color 1s, transform 0.5s;
+}
+.carte4 {
+  border: 1px solid #fff983;
+  background: url(/images/8.png) center/cover;
+  height: 50vh;
+  width: 30vh;
+  transition: width 0.5s, height 0.5s, background-color 1s, transform 0.5s;
+}
+
+.carte1:hover {
+  height: 70vh;
+  width: 80vh;
+  box-shadow: 0 0 20px 14px #4159c2;
+  border: 3px solid #c6e1ff;
+  z-index: 5;
+}
+.carte2:hover {
+  height: 70vh;
+  width: 80vh;
+  border: 3px solid #a6d5d6;
+  box-shadow: 0 0 20px 14px #367b83;
+}
+.carte3:hover {
+  height: 70vh;
+  width: 80vh;
+  box-shadow: 0 0 20px 14px #fe7539;
+  border: 3px solid #fff983;
+}
+.carte4:hover {
+  height: 70vh;
+  width: 80vh;
+  box-shadow: 0 0 20px 14px #4d0b07;
+  border: 3px solid #bc4a1e;
+}
